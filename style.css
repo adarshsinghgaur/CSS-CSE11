@@ -1,15 +1,29 @@
-h2{
-    color: blue;
+.container{
+    display:flex;
+    height: 500px;
+    width: 1000px;
+    border: 1px;
+    background-color: antiquewhite;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+    align-items:start;
+    align-content:space-around;
+    gap: 10px;
 }
-p{
-    color: red;
-}
-.par{
-    color: green;
-}
-#jk{
-    background-color: black;
-    color: yellowgreen;
+.item{
+    height: 100px; 
+    width: 200px;
+    border: 1px solid black;
+    background-color: chocolate;
     text-align: center;
-    font-size: xx-large;
+    flex-grow: 1;
+   
+
+}
+.item2{
+    order: -1;
+    flex-grow:2;
+    align-self: flex-end;
+    
 }
