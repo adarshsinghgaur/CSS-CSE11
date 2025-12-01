@@ -1,0 +1,25 @@
+.box {
+    border: 2px solid darkgray;
+    padding: 20px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.block1 {
+    background: lightblue;
+    padding: 10px;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.block2 {
+    background: lightgreen;
+    padding: 10px;
+    font-size: 24px;
+}
