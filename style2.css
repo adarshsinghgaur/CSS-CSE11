@@ -4,15 +4,16 @@
     width: 1000px;
     background-color: aqua;
     border: 1px solid black;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(3,100px);
     grid-template-areas: "header header header header"
     "main main . sidebar"
     "footer footer footer footer";
     column-gap: 10px;
     justify-items: center;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    align-content: center;
 }
 .item{
     height: 100px;
@@ -23,7 +24,7 @@
     align-items: center;
 
 }
-/* .item1{
+ .item1{
     grid-area: header;
 }
 .item2{
@@ -35,4 +36,4 @@
 }
 .item4{
     grid-area: footer;
-} */
+} 
