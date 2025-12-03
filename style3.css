@@ -1,0 +1,23 @@
+@media (max-width:768px){
+    p{
+        font-size: 20px;
+    }
+} 
+.box{
+    width: 100px;
+    height: 100px;
+    background: green;
+}
+@media(min-width:768px){
+    .box{
+        background: red;
+    }
+}
+li{
+    list-style-type: none;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
