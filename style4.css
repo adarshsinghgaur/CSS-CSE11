@@ -1,0 +1,17 @@
+.box{
+    width: 100%;
+    height: 100px;
+    background-color: chartreuse;
+    border: 1px solid black;
+    box-shadow: 4px;
+}
+@media(max-width:768px){
+    .box{
+        display: none;
+    }
+}
+@media(min-width:768px){
+    h1{
+        display: none;
+    }
+}
