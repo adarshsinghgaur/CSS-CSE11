@@ -21,3 +21,34 @@ nav ul{
     display: flex;
     justify-content: space-around;
 }
+p{
+    background-color: brown;
+}
+nav{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    background-color: aqua;
+    
+}
+.logo{
+    color: #fff;
+    top: 60px;
+    right: 0px;
+    left: 20px;
+    width: 200px;
+}
+.menu{
+    color: #fff;
+    padding: 1em;
+    text-decoration: none;
+    display: block;
+}
+@media(min-width: 768px){
+    .menu{
+        display:flex;
+        flex-direction:row;
+        position: static
+
+    }
+}
